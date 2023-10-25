@@ -3027,11 +3027,13 @@ a {
 }
 .cid-tTDPAywEg8 .mbr-section-title {
   color: #FFFFFF;
+  text-align: center;
 }
 .cid-tTDPAywEg8 .mbr-section-subtitle {
   color: #FFFFFF;
   opacity: 0.8;
   margin-top: 50px;
+  text-align: center;
 }
 @media (max-width: 991px) {
   .cid-tTDPAywEg8 .mbr-section-subtitle {
