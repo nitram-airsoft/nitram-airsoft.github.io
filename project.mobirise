@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "PAGINA NITRAM",
-    "currentPage": "el_colegio.html",
+    "currentPage": "la_vaqueria.html",
     "theme": {
       "name": "gumm5",
       "title": "GymM5",
@@ -75,7 +75,9 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo-nitram-1920-x1080.png",
+        "password_protect_password": ""
       },
       "components": [
         {
@@ -156,7 +158,8 @@
       "settings": {
         "title": "tiendas",
         "order": "5",
-        "meta_descr": ""
+        "meta_descr": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo-nitram-1920-x1080-1.png"
       },
       "components": [
         {
@@ -1283,7 +1286,8 @@
     "menu.html": {
       "settings": {
         "title": "menu",
-        "order": "1"
+        "order": "1",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo-nitram-1920-x1080-1.png"
       },
       "components": [
         {
@@ -2706,7 +2710,8 @@
     "replicas.html": {
       "settings": {
         "title": "replicas",
-        "order": "2"
+        "order": "2",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo-nitram-1920-x1080-1.png"
       },
       "components": [
         {
@@ -3826,7 +3831,8 @@
       "settings": {
         "title": "zonas de juego",
         "order": "6",
-        "meta_descr": ""
+        "meta_descr": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo-nitram-1920-x1080-1.png"
       },
       "components": [
         {
@@ -4840,7 +4846,8 @@
       "settings": {
         "title": "la vaqueria",
         "order": "7",
-        "meta_descr": ""
+        "meta_descr": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo-nitram-1920-x1080-1.png"
       },
       "components": [
         {
@@ -5699,7 +5706,7 @@
           },
           "_name": "header3",
           "_sourceTheme": "gumm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"gymm5 header3\" group=\"Header\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"10\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Price\" name=\"showTitle2\">\n        <input type=\"checkbox\" title=\"Subtitle 1\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Subtitle 2\" name=\"showsubTitle2\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1b1818\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\n        <div class=\"image-wrapper\">\n            <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/o-1cdl0vuks8ja181g1csk1d6rq9id-1347x681.jpg\" alt=\"Mobirise Website Builder\">\n        </div>\n\n        <div class=\"row\">\n\n            <div class=\"col-12 col-md-12 col-lg-12 col-xl-6\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showsubTitle\"><b>\n                        LIMITED OFFER</b></h3>\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>LA VAQUERIA</b></h1>\n                <h2 class=\"mbr-section-price mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-price\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle2\"><b>ONLY $59.99</b></h2>\n            </div>\n            <div class=\"col-12 col-md-12 col-lg-12 col-xl-5\">\n\n\n\n\n                <div class=\"align-left\">\n                    <h3 class=\"mbr-section-subtitle2 mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle2\" mbr-theme-style=\"display-2\" mbr-if=\"showsubTitle2\"><b>ABOUT GYM</b></h3>\n                    <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Este lugar es donde comencé mis primeras partidas. Es un sitio amplio, con diversas edificaciones y numerosos escondites. Sin embargo, en algunas áreas, se debe tener precaución debido al deterioro de la infraestructura. Cada fin de semana, suele haber una gran cantidad de jugadores, por lo que es recomendable informarse previamente a través de los grupos de WhatsApp<br>\n                    </p>\n\n                </div>\n            </div>\n            <div class=\"col-12\">\n                <div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn align-left mt-5\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">VER UBICACIÓN</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"gymm5 header3\" group=\"Header\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"10\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Price\" name=\"showTitle2\">\n        <input type=\"checkbox\" title=\"Subtitle 1\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Subtitle 2\" name=\"showsubTitle2\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1b1818\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\n        <div class=\"image-wrapper\">\n            <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/o-1cdl0vuks8ja181g1csk1d6rq9id-1347x681.jpg\" alt=\"Mobirise Website Builder\">\n        </div>\n\n        <div class=\"row\">\n\n            <div class=\"col-12 col-md-12 col-lg-12 col-xl-6\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showsubTitle\"><b>\n                        LIMITED OFFER</b></h3>\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>LA VAQUERIA</b></h1>\n                <h2 class=\"mbr-section-price mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-price\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle2\"><b>ONLY $59.99</b></h2>\n            </div>\n            <div class=\"col-12 col-md-12 col-lg-12 col-xl-5\">\n\n\n\n\n                <div class=\"align-left\">\n                    <h3 class=\"mbr-section-subtitle2 mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle2\" mbr-theme-style=\"display-2\" mbr-if=\"showsubTitle2\"><b>ABOUT GYM</b></h3>\n                    <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Este lugar es donde comencé mis primeras partidas. Es un sitio amplio, con diversas edificaciones y numerosos escondites. Sin embargo, en algunas áreas, se debe tener precaución debido al deterioro de la infraestructura. Cada fin de semana, suele haber una gran cantidad de jugadores, por lo que es recomendable informarse previamente a través de los grupos de WhatsApp<br>\n                    </p>\n\n                </div>\n            </div>\n            <div class=\"col-12\">\n                <div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn align-left mt-5\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black\" href=\"https://maps.app.goo.gl/U8i5VXT1JxTdytjM9\" data-app-placeholder=\"Type Text\" target=\"_blank\">VER UBICACIÓN</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tTPpY10iuG",
           "_anchor": "header3-21",
           "_protectedParams": [],
@@ -5738,7 +5745,8 @@
       "settings": {
         "title": "el colegio",
         "order": "8",
-        "meta_descr": ""
+        "meta_descr": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo-nitram-1920-x1080-1.png"
       },
       "components": [
         {
