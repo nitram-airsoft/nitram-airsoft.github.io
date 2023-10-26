@@ -38,7 +38,7 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12 col-md-12 col-lg-7 image-wrapper">
-                <img class="w-100" src="assets/images/logo-nitram-1920-x1080-1920x1080.png" alt="nitram intro">
+                <img class="w-100 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="nitram intro" loading="lazy" data-src="assets/images/logo-nitram-1920-x1080-1920x1080.webp">
             </div>
             <div class="col-12 col-lg col-md-12">
                 <div class="text-wrapper align-left">
@@ -60,6 +60,7 @@
   
   
   <input name="animation" type="hidden">
-  
+  <script>"use strict";if("loading"in HTMLImageElement.prototype){document.querySelectorAll('img[loading="lazy"]').forEach(e=>{e.src=e.dataset.src;if(e.getAttribute("style")){e.setAttribute("data-temp-style",e.getAttribute("style"))};if(e.getAttribute("data-aspectratio")){e.style.paddingTop=100*e.getAttribute("data-aspectratio")+"%";e.style.height=0;}e.onload=function(){if(e.getAttribute("data-temp-style")){e.setAttribute("style", e.getAttribute("data-temp-style"))}else{e.removeAttribute("style")};e.removeAttribute("data-temp-style")}})}else{const e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js";document.body.appendChild(e)}</script>
+
 </body>
 </html>
