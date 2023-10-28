@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NITRAM2",
-    "currentPage": "contacto.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "expertm5",
       "title": "ExpertM5",
@@ -49,7 +49,7 @@
     "screenshot": "screenshot.png",
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/logo-nitram-128x91.png",
-    "mbrsiteDomain": "ck70fxbsjz",
+    "mbrsiteDomain": "nvpundqfrw",
     "usedWebp": false,
     "cssOptimize": false,
     "lazyLoad": false,
@@ -62,8 +62,8 @@
     "pwa-switcher": true,
     "PWA": {
       "enabled": true,
-      "name": "",
-      "icon": "@PROJECT_PATH@/assets/images/logo-nitram-512x512.png",
+      "name": "NITRAM-WEB",
+      "icon": "@PROJECT_PATH@/assets/images/logo-nitram.ico",
       "themeColor": "#94820f"
     }
   },
