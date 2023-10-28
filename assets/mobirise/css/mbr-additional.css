@@ -2889,6 +2889,7 @@ a:hover {
 .cid-tTTaWLPy7H .mbr-section-title {
   color: #FFFFFF;
   margin-bottom: 11px;
+  text-align: center;
 }
 .cid-tTTaWLPy7H .mbr-section-title a {
   font-weight: inherit;
@@ -2976,7 +2977,7 @@ a:hover {
   padding-top: 10rem;
   padding-bottom: 5rem;
   overflow: hidden;
-  background-color: #878e99;
+  background-image: url("../../../assets/images/background2.jpg");
 }
 .cid-tTT8ALVtVw .mbr-fallback-image.disabled {
   display: none;
@@ -3053,6 +3054,7 @@ a:hover {
 .cid-tTT8ALVtVw .mbr-section-title {
   color: #FFFFFF;
   margin-bottom: 11px;
+  text-align: center;
 }
 .cid-tTT8ALVtVw .mbr-section-title a {
   font-weight: inherit;
@@ -5224,7 +5226,7 @@ a:hover {
 }
 .cid-tTTxKE0XUw {
   padding-top: 10rem;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
   overflow: hidden;
   background-color: #212428;
 }
