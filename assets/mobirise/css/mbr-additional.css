@@ -781,9 +781,6 @@ a:hover {
   background: #FFFFFF !important;
   transform: translateY(-5px);
 }
-.cid-tTSVbTWGfz {
-  background-image: url("../../../assets/images/imagen-de-whatsapp-2023-10-24-a-las-22.02.55-0d2fe838-2000x921.jpg");
-}
 .cid-tTSVbTWGfz .mbr-fallback-image.disabled {
   display: none;
 }
@@ -795,6 +792,7 @@ a:hover {
   height: 100%;
   position: absolute;
   top: 0;
+  background-image: url("../../../assets/images/background1.jpg");
 }
 @media (max-width: 991px) {
   .cid-tTSVbTWGfz .image-wrapper {
